@@ -17,35 +17,37 @@
                 <div class="container-fluid">
                     <div class="col-lg-2">
                         <a class="navbar-brand" href="#">
-                            <img src="../../asset/images/joomla-watches-shop-logo.png" alt="">
+                            <img alt="" src="../../asset/images/joomla-watches-shop-logo.png">
                         </a>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                            class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                            data-bs-toggle="collapse" type="button">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-                        <div class="col-lg-8">
-                            <ul class="navbar-nav d-flex justify-content-center me-auto mb-2 mb-lg-0">
+                        <div class="col-lg-10">
+                            <ul class="navbar-nav d-flex justify-content-evenly me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                                    <a aria-current="page" class="nav-link active" href="../../index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../../asset/pages/producten.html">Producten</a>
+                                    <a aria-current="page" class="nav-link active"
+                                       href="../../asset/pages/producten.html">Producten</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../../asset/pages/contact.html">Contact</a>
+                                    <a aria-current="page" class="nav-link active"
+                                       href="../../asset/pages/contact.html">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../../asset/pages/blog.html">Blog</a>
+                                    <a aria-current="page" class="nav-link active" href="../../asset/pages/blog.html">Blog</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-2 text-center">
-                            <a class="btn" ><i class="bi bi-cart4"></i></a>
-                            <a class="btn" ><i class="bi bi-search"></i></a>
-                            <a class="btn" ><i class="bi bi-person-circle"></i></a>
+                            <a class="btn" href="myCart.html"><i class="bi bi-cart4"></i></a>
+                            <a class="btn"><i class="bi bi-search"></i></a>
+                            <a class="btn"><i class="bi bi-person-circle"></i></a>
                         </div>
                     </div>
                 </div>
@@ -58,16 +60,29 @@
     <div class="row">
         <div class="col-lg-10 offset-lg-1 ">
             <div class="text-center">
-                <h1 class="m-5">EMPORIO ARMANI</h1>
+                <h1 class="m-5">Hugo Boss</h1>
             </div>
-            <div class="row row-cols-2">
+            <div class="row row-cols-sm-2">
                 <div class="text-center">
-                    <img src="../images/emporio-armani-350x250.png" alt="emporio-armani">
+                    <img src="../images/emporio-armani-350x250.png" class="img-fluid" alt="emporio-armani">
                 </div>
-                <div>
-                    <p>Meet new Joomla business template - Rapture. Rapture is an ultimate Joomla template, that fits
-                        for every purpose.</p>
-                    <p>Prijs per stuk: $39.00</p>
+                <div class="my-3 my-sm-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Dolore facilis, illo nihil provident sapiente sit!
+                        Aliquam architecto asperiores assumenda commodi cupiditate,
+                        distinctio eligendi fugiat natus nemo nulla, optio pariatur sapiente!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ad atque autem consequuntur enim,
+                        eos exercitationem id maiores nesciunt perspiciatis possimus,
+                        saepe sed tempore. Eveniet ipsa minima non quos veritatis.</p>
+                    <div class="d-flex">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star"></i>
+                        <p class="ms-3">4/5 Based on 11 custom reviews</p>
+                    </div>
+                    <p>Prijs per stuk: $390.00</p>
                     <div class="d-flex align-items-center">
                         <label for="quantity" class="a-native-dropdown me-2">Aantal:</label>
                         <select name="quantity" autocomplete="off" id="quantity" tabindex="0"
@@ -83,41 +98,38 @@
                             <option value="9">9</option>
                             <option value="10">10</option>
                         </select>
-                        <button type="button" class="btn ms-2"><i class="bi bi-cart"></i></button>
+                        <a href="myCart.html" type="button" class="btn ms-2"><i class="bi bi-cart"></i></a>
                     </div>
-
                 </div>
             </div>
-            <div class="row m-5">
+            <div class="row">
                 <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
-                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                        <button class="nav-link active" id="nav-description-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-description" type="button" role="tab" aria-controls="nav-home"
                                 aria-selected="true">Description
                         </button>
-                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Reviews
+                        <button class="nav-link" id="nav-reviews-tab" data-bs-toggle="tab" data-bs-target="#nav-reviews"
+                                type="button" role="tab" aria-controls="nav-reviews" aria-selected="false">Reviews
                         </button>
                     </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="tab-pane fade show active" id="nav-description" role="tabpanel" aria-labelledby="nav-description-tab">
                         <div class="my-3">
-                            <p>Cras enim ac eu rhoncus turpis nunc, phasellus dapibus, phasellus vut, turpis amet enim cum!
-                                Ac sed, pulvinar proin velit integer dignissim? Turpis. Aliquet magna porta parturient, augue
-                                ut, magnis, platea in, magnis! Eu quis, nisi, mid auctor! Facilisis ut porttitor aenean rhoncus
-                                augue nec sit in. Tempor dolor elit tristique! Ut porttitor auctor? Ac dapibus etiam? Dapibus
-                                nunc.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolor magnam nisi obcaecati velit?
+                                Accusamus aspernatur atque debitis dolore,
+                                eaque ex illo, labore praesentium qui quisquam sapiente sunt unde vitae!</p>
                             <h6>Brand</h6>
-                            <p>Frederique Constant</p>
+                            <p>Hugo Boss</p>
                             <h6>Color</h6>
-                            <p>Orange</p>
+                            <p>Grey</p>
                         </div>
-
-
                     </div>
-                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        rtjgfgg
+                    <div class="tab-pane fade my-3" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi consequuntur cum,
+                            debitis ea ipsa iusto magnam nesciunt nobis non quae recusandae. Blanditiis
+                            cumque excepturi molestiae, quasi saepe sequi sint!</p>
                     </div>
                 </div>
             </div>

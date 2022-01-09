@@ -17,35 +17,37 @@
                 <div class="container-fluid">
                     <div class="col-lg-2">
                         <a class="navbar-brand" href="#">
-                            <img src="../../asset/images/joomla-watches-shop-logo.png" alt="">
+                            <img alt="" src="../../asset/images/joomla-watches-shop-logo.png">
                         </a>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                            class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                            data-bs-toggle="collapse" type="button">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-                        <div class="col-lg-8">
-                            <ul class="navbar-nav d-flex justify-content-center me-auto mb-2 mb-lg-0">
+                        <div class="col-lg-10">
+                            <ul class="navbar-nav d-flex justify-content-evenly me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                                    <a aria-current="page" class="nav-link active" href="../../index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../../asset/pages/producten.html">Producten</a>
+                                    <a aria-current="page" class="nav-link active"
+                                       href="../../asset/pages/producten.html">Producten</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../../asset/pages/contact.html">Contact</a>
+                                    <a aria-current="page" class="nav-link active"
+                                       href="../../asset/pages/contact.html">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../../asset/pages/blog.html">Blog</a>
+                                    <a aria-current="page" class="nav-link active" href="../../asset/pages/blog.html">Blog</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-2 text-center">
-                            <a class="btn" ><i class="bi bi-cart4"></i></a>
-                            <a class="btn" ><i class="bi bi-search"></i></a>
-                            <a class="btn" ><i class="bi bi-person-circle"></i></a>
+                            <a class="btn" href="myCart.html"><i class="bi bi-cart4"></i></a>
+                            <a class="btn"><i class="bi bi-search"></i></a>
+                            <a class="btn"><i class="bi bi-person-circle"></i></a>
                         </div>
                     </div>
                 </div>
@@ -56,39 +58,86 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-10 offset-lg-1 ">
-            <div class="row">
-                <div class="row my-5">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner ">
-                            <div class="carousel-item active">
-                                <div class="row row-cols-sm-4 row-cols-2">
-                                    <img src="../../asset/images/brand-1.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                    <img src="../../asset/images/brand-2.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                    <img src="../../asset/images/brand-3.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                    <img src="../../asset/images/brand-4.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row row-cols-sm-4 row-cols-2">
-                                    <img src="../../asset/images/brand-1.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                    <img src="../../asset/images/brand-2.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                    <img src="../../asset/images/brand-3.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                    <img src="../../asset/images/brand-4.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row row-cols-sm-4 row-cols-2">
-                                    <img src="../../asset/images/brand-1.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                    <img src="../../asset/images/brand-2.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                    <img src="../../asset/images/brand-3.jpg" class="img-fluid p-0 p-2 " alt="...">
-                                    <img src="../../asset/images/brand-4.jpg" class="img-fluid p-0 p-2 " alt="...">
+        <div class="col-lg-10 offset-lg-1">
+            <h1 class="text-center my-3">Our Products</h1>
+            <section id="brands">
+                <div class="row">
+                    <div class="row my-5 mx-auto">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner ">
+                                    <div class="carousel-item active">
+                                        <div class="row row-cols-md-5 row-cols-2">
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-1.jpg" class="img-fluid p-0 p-2 "
+                                                     alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-2.jpg" class="img-fluid p-0 p-2 "
+                                                     alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-3.jpg" class="img-fluid p-0 p-2" alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-4.jpg" class="img-fluid p-0 p-2" alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-4.jpg"
+                                                     class="img-fluid p-0 p-2 d-md-inline d-none" alt="...">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row row-cols-md-5 row-cols-2">
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-1.jpg" class="img-fluid p-0 p-2 "
+                                                     alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-2.jpg" class="img-fluid p-0 p-2 "
+                                                     alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-3.jpg" class="img-fluid p-0 p-2" alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-4.jpg" class="img-fluid p-0 p-2" alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-4.jpg"
+                                                     class="img-fluid p-0 p-2 d-md-inline d-none" alt="...">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row row-cols-md-5 row-cols-2">
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-1.jpg" class="img-fluid p-0 p-2 "
+                                                     alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-2.jpg" class="img-fluid p-0 p-2 "
+                                                     alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-3.jpg" class="img-fluid p-0 p-2" alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-4.jpg" class="img-fluid p-0 p-2" alt="...">
+                                            </a>
+                                            <a href="../../asset/pages/producten.html">
+                                                <img src="../../asset/images/brand-4.jpg"
+                                                     class="img-fluid p-0 p-2 d-md-inline d-none" alt="...">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <div class="row">
                 <div class="col-md-3 border-2 border-danger">
                     <div class="input-group rounded my-3">
@@ -405,7 +454,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
