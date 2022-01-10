@@ -59,96 +59,107 @@
 <main>
     <div class="container-fluid">
         <div class="row">
-            <h1 class="text-center my-3">Your Shopping Car</h1>
+            <h1 class="text-center my-3">Your Shopping Cart</h1>
             <div class="row mx-auto">
-                <div class="col-lg-10 offset-lg-1">
+                <div class="col-lg-8 offset-lg-2">
                     <div class="d-none d-sm-inline">
-                        <table class="table align-middle">
-                            <thead>
-                            <tr>
-                                <th class="col-lg-4 "></th>
-                                <th class="col-lg-4">Product</th>
-                                <th class="col-lg-1">Price</th>
-                                <th class="col-lg-2">Quantity</th>
-                                <th class="col-lg-1">Total</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr >
-                                <td class="text-center">
-                                    <img src="../images/hugo-boss-350x250.png" alt=""></td>
-                                <td class="pe-5 fs-5">Hugo Boss</td>
-                                <td>€390.00</td>
-                                <td>
-                                    <div class="d-flex align-items-center">
-                                        <label for="quantity1" class="a-native-dropdown me-2"></label>
-                                        <select name="quantity" autocomplete="off" id="quantity1" tabindex="0"
-                                                data-action="a-dropdown-select" class="a-native-dropdown a-declarative">
-                                            <option value="1" selected="">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
-                                            <option value="8">8</option>
-                                            <option value="9">9</option>
-                                            <option value="10">10</option>
-                                        </select>
+                        <div class="row ">
+                            <div class="col-sm-8">
+                                <table class="table align-middle">
+                                    <thead>
+                                    <tr>
+                                        <th class="col-lg-4 "></th>
+                                        <th class="col-lg-4">Product</th>
+                                        <th class="col-lg-1">Price</th>
+                                        <th class="col-lg-2">Quantity</th>
+                                        <th class="col-lg-1">Total</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td class="text-center">
+                                            <img src="../images/hugo-boss-350x250.png" class="img-fluid" alt=""></td>
+                                        <td class="pe-5 fs-5">Hugo Boss</td>
+                                        <td>€390.00</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <label for="quantity1" class="a-native-dropdown me-2"></label>
+                                                <select name="quantity" autocomplete="off" id="quantity1" tabindex="0"
+                                                        data-action="a-dropdown-select" class="a-native-dropdown a-declarative">
+                                                    <option value="1" selected="">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p>€390.00</p>
+                                            <button type="button" class="btn btn-secondary rounded my-auto me-2">Remove</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            <img src="../images/hugo-boss-350x250.png" class="img-fluid" alt=""></td>
+                                        <td class="pe-5 fs-5">Hugo Boss</td>
+                                        <td>€390.00</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <label for="quantity2" class="a-native-dropdown me-2"></label>
+                                                <select name="quantity" autocomplete="off" id="quantity2" tabindex="0"
+                                                        data-action="a-dropdown-select" class="a-native-dropdown a-declarative">
+                                                    <option value="1" selected="">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p>€390.00</p>
+                                            <button type="button" class="btn btn-secondary my-auto me-2">Remove</button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-sm-4 my-4">
+                                <div class=" bg-grey rounded-2 text-center mt-3">
+                                    <p class="pt-3">Total products (2)</p>
+                                    <p class="fw-bold">€780.00</p>
+                                    <p>Verzendingskosten</p>
+                                    <p class="fw-bold">€4.99</p>
+                                    <hr>
+                                    <p>Totaal</p>
+                                    <p class="fw-bold">€784.99</p>
+                                    <div class="row mb-3">
+                                        <div>
+                                            <a href="#" class="btn mx-auto btn-outline-primary" >Betalen</a>
+                                        </div>
+                                        <p class="my-3">of</p>
+                                        <div>
+                                            <a href="../../asset/pages/producten.html"
+                                               class="btn mb-3 mx-auto rounded btn-outline-success">Verder
+                                                winkelen
+                                            </a>
+                                        </div>
                                     </div>
-                                </td>
-                                <td>
-                                    <p>€390.00</p>
-                                    <button type="button" class="btn btn-secondary rounded my-auto me-2">Remove</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    <img src="../images/hugo-boss-350x250.png" alt=""></td>
-                                <td class="pe-5 fs-5">Hugo Boss</td>
-                                <td>€390.00</td>
-                                <td>
-                                    <div class="d-flex align-items-center">
-                                        <label for="quantity2" class="a-native-dropdown me-2"></label>
-                                        <select name="quantity" autocomplete="off" id="quantity2" tabindex="0"
-                                                data-action="a-dropdown-select" class="a-native-dropdown a-declarative">
-                                            <option value="1" selected="">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
-                                            <option value="8">8</option>
-                                            <option value="9">9</option>
-                                            <option value="10">10</option>
-                                        </select>
-                                    </div>
-                                </td>
-                                <td>
-                                    <p>€390.00</p>
-                                    <button type="button" class="btn btn-secondary my-auto me-2">Remove</button>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <div class="row">
-                            <div class="col-8"></div>
-                            <div class="col-4 bg-grey text-center">
-                                <p class="mt-3">Total products (2)</p>
-                                <p class="fw-bold">€780.00</p>
-                                <p>Verzendingskosten</p>
-                                <p class="fw-bold">€4.99</p>
-                                <hr>
-                                <p>Totaal</p>
-                                <p class="fw-bold">€784.99</p>
-                                <div class="row mb-3">
-                                    <a href="#" type="button" class="btn mx-auto w-25 btn-outline-primary" >Betalen</a>
-                                    <p class="my-3">of</p>
-                                    <a href="../../asset/pages/producten.html" type="button" class="btn mx-auto rounded w-25 btn-outline-success">Verder winkelen</a>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                     <div class="d-sm-none text-center">
                         <div>
@@ -239,9 +250,13 @@
                             <hr>
                             <p>Totaal</p>
                             <p class="fw-bold">€784.99</p>
-                            <a href="#" class="btn btn-outline-primary" >Betalen</a>
+                            <div>
+                                <a href="#" class="btn btn-outline-primary" >Betalen</a>
+                            </div>
                             <p class="my-3">of</p>
-                            <a href="../../asset/pages/producten.html" class="btn btn-outline-success">Verder winkelen</a>
+                            <div>
+                                <a href="../../asset/pages/producten.html" class="btn btn-outline-success">Verder winkelen</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -264,7 +279,7 @@
                             <!-- Button trigger modal -->
                             <a href="#WhatWeDo" data-bs-toggle="modal" data-bs-target="#WhatWeDo">What We Do</a>
                             <!-- Modal -->
-                            <div class="modal fade" id="WhatWeDo" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            <div class="modal fade" id="WhatWeDo" tabindex="-1" aria-labelledby="exampleWhatWeDo"
                                  aria-hidden="true">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content ">
@@ -412,8 +427,8 @@
                             <div class="input-group mb-3">
                                 <label for="email"></label>
                                 <input id="email" name="email" value="" type="email" class="form-control"
-                                       placeholder="Email address" aria-label="Recipient's username"
-                                       aria-describedby="basic-addon2">
+                                       placeholder="Email address" aria-label="email"
+                                       aria-describedby="email">
                             </div>
                             <div class="input-group">
                                 <label for="tekst"></label>
